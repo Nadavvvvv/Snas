@@ -1,0 +1,71 @@
+body {
+    background-color: #a74fff;
+}
+
+.Title {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.question{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: white;
+}
+.answerInput {
+    display: block;
+    width: 200px; /* Adjust width as needed */
+    margin: 0 auto; /* Shortened margin property */
+    border-radius: 10px;
+    border: 1px solid white; /* Added border to match other elements */
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.answerSubmit {
+    display: block;
+    width: 100px; /* Adjust width as needed */
+    margin: 20px auto; /* Shortened margin property and added spacing */
+    border-radius: 10px;
+    border: 1px solid white; /* Added border to match other elements */
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+.ans {
+    background-color: purple;
+    width: 100%; /* Stretch the button width to fill the entire cell */
+    height: 100%; /* Stretch the button height to fill the entire cell */
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 40px 200px; /* Adjust padding to make buttons larger */
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.x{
+    background-color: white;
+    width: 2%;
+}

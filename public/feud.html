@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feud Trivia</title>
+    <link rel="stylesheet" href="/styles/feud.css" type="text/css" />
+</head>
+<body>
+    <h1 class="Title">Feud Trivia!</h1>
+    
+    <button onclick="showRules()">Rules</button>
+    <button onclick="askQuestion()">Next Question</button>
+    
+    <hr>
+    <h2 id="question" class="question">Question</h2>
+    <button class="x" id="x1">X</button>
+    <button class="x" id="x2">X</button>
+    <button class="x" id="x3">X</button>
+
+    <table class="answerTable">
+        <tr>
+            <td><button class="ans" id="ans1">1</button></td>
+            <td><button class="ans" id="ans5">5</button></td>
+        </tr>
+        <tr>
+            <td><button class="ans" id="ans2">2</button></td>
+            <td><button class="ans" id="ans6">6</button></td>
+        </tr>
+        <tr>
+            <td><button class="ans" id="ans3">3</button></td>
+            <td><button class="ans" id="ans7">7</button></td>
+        </tr>
+        <tr>
+            <td><button class="ans" id="ans4">4</button></td>
+            <td><button class="ans" id="ans8">8</button></td>
+        </tr>
+    </table>
+    <br><br><br>
+    <input type="text" class="answerInput" id="userAnswer" name="answer" placeholder="Type a Guess">
+    <br><br><br>
+    
+    <input type="submit" class="answerSubmit" id="userSubmit" onkeypress="playerSubmit()" name="answer" placeholder="submit">
+    <script src="/js/feud.js"></script>
+    <script src="/js/ffQuestions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/openthesaurus@1.8.1/dist/openthesaurus.min.js"></script>
+
+</body>
+</html>
